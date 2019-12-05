@@ -38,6 +38,10 @@ public class Comment {
     @JoinColumn(name = "image_id")
     private Image image;
 
+    public Comment() {
+    }
+
+
     public Integer getId() {
         return id;
     }
