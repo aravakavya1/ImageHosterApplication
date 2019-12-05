@@ -18,7 +18,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(HomeController.class)
-public class HomeControllerTest {
+public class git HomeControllerTest {
 
     protected MockHttpSession session;
 

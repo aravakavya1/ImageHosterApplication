@@ -168,6 +168,7 @@ public class ImageController {
             String errDelete = "Only the owner of the image can delete the image";
             model.addAttribute("deleteError", errDelete);
             return "images/image";
+
         }
     }
 
